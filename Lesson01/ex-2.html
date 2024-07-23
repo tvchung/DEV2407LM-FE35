@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các thẻ cơ bản - hiển thị hình ảnh, liên kết</title>
+</head>
+<body>
+    <h1>Các thẻ cơ bản - hiển thị hình ảnh, liên kết</h1>
+    <hr>
+    <h2>Hiển thị hình ảnh: img (src, alt,...)</h2>
+    <pre>
+        thẻ img:
+            - thuộc tính: src = [url] (nguồn ảnh)
+                url: tương đối / tuyệt đối
+                + url: tuyệt đối 
+                    [giao thức]://domain/path
+                    ví dụ:
+                    https://devmaster.edu.vn/images/logo.png
+                + url: tương đối
+                    ++ folder/file; images/logo.png
+                    ++ file : logo.png
+                    ++ ../ : ../logo.png
+
+    </pre>
+    <h3>url tuyệt đối</h3>
+    <img src="https://devmaster.edu.vn/images/logo.png" 
+        alt="Devmaster Academy">
+    <h3>url tương đối</h3>
+    <img src="images/logo.png" alt="DEV">
+    <br>
+    <img src="../student.png" alt="student" width="150px">
+</body>
+</html>
